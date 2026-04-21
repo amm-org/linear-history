@@ -1,3 +1,0 @@
-# contributing!
-
-Another change.
