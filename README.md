@@ -1,3 +1,4 @@
 # linear-history
 
 A
+B
