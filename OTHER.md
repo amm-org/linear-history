@@ -1,3 +1,1 @@
-Hi!
-
-Something else.
+Hi
