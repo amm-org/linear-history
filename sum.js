@@ -1,5 +1,5 @@
 /**
- * @param {number[]} numbers
+ * @param {number[]} numbers.
  * @returns {number}
  */
 export function soma(...numbers) {
