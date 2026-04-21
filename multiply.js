@@ -2,6 +2,6 @@
  * @param {number[]} numbers
  * @returns {number}
  */
-export function multiply(...numbers) {
+export function maultiply(...numbers) {
   return numbers.reduce((product, n) => product * n, 1);
 }
