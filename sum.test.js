@@ -1,17 +1,17 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { sum } from "./sum.js";
+import { soma } from "./sum.js";
 
 describe("sum", () => {
   it("returns 0 with no arguments", () => {
-    assert.equal(sum(), 0);
+    assert.equal(soma(), 0);
   });
 
   it("adds two numbers", () => {
-    assert.equal(sum(2, 3), 5);
+    assert.equal(soma(2, 3), 5);
   });
 
   it("adds many numbers", () => {
-    assert.equal(sum(1, 2, 3, 4, 5), 15);
+    assert.equal(soma(1, 2, 3, 4, 5), 15);
   });
 });
