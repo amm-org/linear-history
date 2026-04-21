@@ -2,6 +2,6 @@
  * @param {number[]} numbers
  * @returns {number}
  */
-export function sum(...numbers) {
+export function soma(...numbers) {
   return numbers.reduce((total, n) => total + n, 0);
 }
